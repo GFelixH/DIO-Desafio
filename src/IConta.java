@@ -1,5 +1,5 @@
 public interface IConta {
-    void sacar(int valor);
+    void sacar(int valor) throws Exception;
 
     void depositar(int valor);
 

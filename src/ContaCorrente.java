@@ -1,5 +1,7 @@
 public class ContaCorrente extends Conta {
 
+    public final String tipo = "Corrente";
+
     public ContaCorrente(int numero) {
         this.numero = numero;
     }
